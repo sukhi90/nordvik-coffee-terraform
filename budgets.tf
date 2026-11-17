@@ -1,4 +1,4 @@
-resource "aws_budgets_budget" "monthly_cost" {
+/*resource "aws_budgets_budget" "monthly_cost" {
   name              = "${var.project_name}-monthly-budget"
   budget_type       = "COST"
   limit_amount      = "75"
@@ -44,3 +44,4 @@ resource "aws_budgets_budget" "monthly_cost" {
     ManagedBy   = "Terraform"
   }
 }
+*/

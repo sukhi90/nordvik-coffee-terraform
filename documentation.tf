@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "project_docs" {
-  bucket = "${var.project_name}-project-docs"
+  bucket = "nordvik-coffee-project-docs-sukhi90-unique"
 }
 
 resource "aws_s3_bucket_versioning" "docs" {
